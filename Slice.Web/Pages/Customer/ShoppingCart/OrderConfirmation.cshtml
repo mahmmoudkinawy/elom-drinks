@@ -1,0 +1,19 @@
+﻿@page
+@model Customer.ShoppingCart.OrderConfirmationModel
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container row">
+    <div class="col-12 text-center">
+        <h1 class="text-primary text-center">Order Placed Successfully!</h1>
+        Your Order Number is : #@Model.OrderId <br /><br />
+        <img src="https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="65%" />
+    </div>
+    <div class="col-12 text-center" style="color:maroon">
+        <br />
+        Your order has been placed successfully! <br />
+        Please make sure to arrive on time for hot delicious drinks!
+    </div>
+</div>
+
